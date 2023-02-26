@@ -1,0 +1,55 @@
+.section-one{
+margin: 30px;
+margin-top: 15%;
+}
+
+.container-1{
+display: grid;
+grid-template-rows: 5fr 1fr;
+grid-template-columns: 1fr .5fr;
+color: rgb(239, 234, 234);
+height: 100vh;
+
+}
+
+
+.quote{
+padding: 30px 70px;
+font-size: 20px;
+font-family: 'Times New Roman', Times, serif;
+}
+
+
+.container-2{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 2px;
+  background: rgb(184, 8, 167);
+    background: linear-gradient(6deg, rgba(184, 8, 167, 0.7763699229691876) 0%, rgba(75, 30, 255, 1) 57%);
+  height: 130vh;
+  width: 100%;
+gap:10px;
+
+}
+
+.card{margin: 20px;
+  margin-top: -40%;
+  padding-left: 40px;
+height: 500px;
+width: 340px;
+background-color: rgb(213, 228, 228);
+border-radius: 25px;
+color: rgb(234, 227, 227);
+}
+
+#one{padding-left: 40px;
+  font-size: 50px;
+  background-color: rgb(240, 217, 238);
+}
+#two {
+  font-size: 50px;
+  background-color: #f4eaea;
+}#three {
+  font-size: 50px;
+  background-color: #f4ece7;
+}
