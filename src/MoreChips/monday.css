@@ -1,7 +1,85 @@
+.monday-header{
+margin-top: -60%;
+display: grid;
+grid-template-columns: 1.5fr  1fr;
+padding-bottom: 15%;
+  
+}
+
 .title{
-margin-top: -35%;
-padding-left: 8%;
-  font-size: 70px;
+padding-left: 10%;
+font-size: 90px;
+line-height: 80px;
+font-family: 'Rammetto One', cursive;
+
+}
+
+#mon{
+  color: rgba(18, 17, 17, 0.664);
+}
+input{
+  margin-top: 70px;
+  background: transparent;
+  border-radius: 20px;
+  height: 50px;
+  border-style:solid;
+  width:70%;
   color: white;
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+#submit{
+  border: none;
+}
+
+.monday-questions{
+margin-left: 10%;
+  margin-top: 190px;
+color:rgba(255, 255, 255, 0.793);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap:13%;
+  font-size: 20px;
+text-align: center;
+gap: 60px;
+
+
+}
+.mon-q{
+  padding: 29px;
+}
+
+.q-card{ 
+  font-family: 'poppins';
+  margin-top: -15%;
+  background: rgba(18, 17, 17, 0.664);
+  border-radius: 20px;
+  width:370px;
+  height: 400px;
+  padding-bottom: 40px;
+  filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.453));
+  color: rgba(242, 242, 242, 0.578);
+
+}
+
+textarea{
+  border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+    padding:30px;
+    color:white;
+    height: 50px;
+  
+}
+textarea:hover{
+  color: rgb(126, 51, 172);
+}
+
+.q-card:hover {
+  background: rgb(249, 243, 243);
+  border: none;
+color: rgb(147, 16, 184);
 
 }

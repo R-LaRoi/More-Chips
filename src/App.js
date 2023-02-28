@@ -4,6 +4,7 @@ import SectionOne from "./MoreChips/SectionOne";
 
 import "./App.css";
 import Monday from "./MoreChips/Monday";
+import Tuesday from "./MoreChips/Tuesday";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Header />
       <SectionOne />
       <Monday />
+      <Tuesday />
     </div>
   );
 }
